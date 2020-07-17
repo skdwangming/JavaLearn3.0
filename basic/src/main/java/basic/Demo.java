@@ -63,4 +63,9 @@ public class Demo {
         String s = Byte2String((byte) -127);
         System.out.println(s);
     }
+    
+    @Test
+    public void test3(){
+        System.out.println("A1234".startsWith("1234",1));
+    }
 }
